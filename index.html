@@ -4,8 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My portfolio where i show my skills, services, about me and sites where you can contact me like my social networks."/>
+    <meta name="author" content="Maximiliano Luis Lovera" />
+    <meta name="copyright" content="Propietario del copyright" />
+    <meta name="robots" content="index"/>
+
     <link rel="stylesheet" href="css.css">
     <script src="https://use.fontawesome.com/releases/v5.15.2/js/all.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>Portfolio</title>
 </head>
@@ -16,9 +23,9 @@
             <div class="logotipo"><a href="index.html">My Port<span>folio.</span></a></div>
             <ul class="menu">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About me</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Services</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#servicios">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#">Contact me</a></li>
             </ul>
 
@@ -35,7 +42,7 @@
             <div class="content-home">
                 <div class="first">Hi, my name is</div>
                 <div class="second">Maximiliano</div>
-                <div class="third">And I'm a <span>Developer Web</span></div>
+                <div class="third">And I'm a <span class="typing">Developer Web</span></div>
                 <a href="#">Contact me!</a>
             </div>
         </div>
@@ -59,15 +66,49 @@
     </div>    
 </section> 
 
-<!-- SECTION OF SKILLS -->
-<section>
+<!-- SECTION OF SERVICES -->
+<section class="services" id="services">
     <div class="max-width">
-        <div class="content-skills">
+        <h2 class="tittle">My services</h2>
+        <div class="serv-content">
+
+
+            <div class="card">
+                <div class="box">
+                    <i class="fas fa-paint-brush"></i>
+                    <div class="text">Web Design</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad asperiores dignissimos officia reprehenderit consequatur.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="box">
+                    <i class="fas fa-chart-line"></i>
+                    <div class="text">Advertising</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad asperiores dignissimos officia reprehenderit consequatur.</p>
+                </div>
+            </div>
             
+            <div class="card">
+                <div class="box">
+                    <i class="fas fa-code"></i>
+                    <div class="text">Maintenance</div>
+                    <p>We are at your absolute disposal to resolve any questions or problems related to web maintenance and support.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="box">
+                    <i class="fas fa-code"></i>
+                    <div class="text">Maintenance</div>
+                    <p>We are at your absolute disposal to resolve any questions or problems related to web maintenance and support.</p>
+                </div>
+            </div>
+
+
         </div>
     </div>
-
-
+</div>
 </section>
 
 
