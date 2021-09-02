@@ -13,3 +13,16 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass('active');
     });
 });
+
+
+
+// ANIMACION ESCRITURA
+
+
+var typed = new Typed(".typing",{
+    strings: ["Developer", "Designer", "Freelancer", "Youtuber"],
+    typeSpeed:100,
+    backSpeed:70,
+    loop:true
+
+});
